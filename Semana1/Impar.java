@@ -14,3 +14,17 @@ public class Impar {
         return (num%2 == 0 ? num + " es par" : num + " es impar");
     }
 }
+
+/*  public static void main(String [] args){
+        
+        Scanner sc = new Scanner (System.in);
+        int num;
+        System.out.println("Ingrese un número entero");
+        num = sc.nextInt();
+        String par;
+        int resto = num%2;
+        par = resto == 0  ? "Par" : "Impar";
+        System.out.println(par);
+    }
+
+ */
